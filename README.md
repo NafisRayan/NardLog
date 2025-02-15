@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Blog
+
+This is a modern blog platform built with Next.js. It includes features such as article creation, editing, and listing, user authentication, dark mode support, and more.
+
+## Features
+
+- **Article Creation and Editing**: Users can create and edit articles using a rich text editor.
+- **Article Listing**: Articles are displayed on the home page with proper formatting and image optimization.
+- **User Authentication**: Users can sign up, sign in, and manage their profiles.
+- **Dark Mode Support**: The application supports both light and dark modes.
+- **Responsive Design**: The application is fully responsive and works on all devices.
+- **Sample Data Generation**: A script is provided to generate sample data for testing.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm (v6 or later)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/next-blog.git
+cd next-blog
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Generate sample data:
+
+```bash
+npm run generate-data
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and navigate to `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app`: Contains the main application pages and API routes.
+- `src/components`: Contains reusable components such as `ArticleForm`, `ArticleCard`, `AuthForm`, etc.
+- `src/lib`: Contains utility functions, context providers, and data access functions.
+- `src/types`: Contains TypeScript type definitions.
+- `scripts`: Contains utility scripts such as the sample data generation script.
 
-## Learn More
+## Configuration
 
-To learn more about Next.js, take a look at the following resources:
+### Image Optimization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application uses Next.js Image component for image optimization. The `next.config.js` file is configured to allow images from `images.unsplash.com`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Environment Variables
 
-## Deploy on Vercel
+Create a `.env.local` file in the root directory and add the following environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm start`: Starts the production server.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run generate-data`: Generates sample data for testing.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.

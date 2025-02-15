@@ -1,0 +1,20 @@
+[
+  {
+    "id": "10209364-50a4-4f1a-a6fa-75e51a6d8fba",
+    "email": "john@example.com",
+    "name": "John Doe",
+    "bio": "Software engineer and technical writer",
+    "createdAt": "2025-02-15T18:35:09.634Z",
+    "followers": [],
+    "following": []
+  },
+  {
+    "id": "8222ab09-6fd0-40ca-b3f8-b9570af7c04e",
+    "email": "jane@example.com",
+    "name": "Jane Smith",
+    "bio": "Full-stack developer and UI/UX enthusiast",
+    "createdAt": "2025-02-15T18:35:09.634Z",
+    "followers": [],
+    "following": []
+  }
+]

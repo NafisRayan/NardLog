@@ -1,0 +1,40 @@
+[
+  {
+    "id": "af25d112-e913-4002-b094-1025e1efdeeb",
+    "title": "Getting Started with Next.js",
+    "slug": "getting-started-with-nextjs",
+    "content": "Next.js is a powerful framework for building React applications. It provides features like server-side rendering, static site generation, and API routes out of the box.\n\nIn this article, we'll explore the basics of Next.js and how to create your first application.\n\n## Installation\n\nTo create a new Next.js app, run:\n\n```bash\nnpx create-next-app@latest my-app\n```\n\n## Key Features\n\n1. File-system based routing\n2. Server-side rendering\n3. API Routes\n4. Built-in CSS support\n\nStay tuned for more Next.js tutorials!",
+    "excerpt": "Learn how to build modern web applications with Next.js, the React framework for production.",
+    "authorId": "10209364-50a4-4f1a-a6fa-75e51a6d8fba",
+    "featuredImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
+    "tags": [
+      "nextjs",
+      "react",
+      "webdev"
+    ],
+    "isDraft": false,
+    "createdAt": "2025-02-15T18:35:09.634Z",
+    "updatedAt": "2025-02-15T18:35:09.634Z",
+    "comments": [],
+    "claps": 42
+  },
+  {
+    "id": "a5e24111-e062-4356-aa1f-49405c9a7a2a",
+    "title": "Understanding TypeScript with React",
+    "slug": "understanding-typescript-with-react",
+    "content": "TypeScript adds static typing to JavaScript, making your code more robust and maintainable. When used with React, it provides excellent type safety and developer experience.\n\n## Why TypeScript?\n\nTypeScript helps catch errors early in development and provides better tooling support.\n\n## Getting Started\n\nInstall TypeScript in your React project:\n\n```bash\nnpm install typescript @types/react @types/react-dom\n```\n\n## Key Concepts\n\n1. Interface vs Type\n2. Generic Types\n3. Union Types\n4. Type Inference\n\nLearn these concepts to become a TypeScript pro!",
+    "excerpt": "Discover how TypeScript can improve your React development experience with static typing and better tooling.",
+    "authorId": "8222ab09-6fd0-40ca-b3f8-b9570af7c04e",
+    "featuredImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+    "tags": [
+      "typescript",
+      "react",
+      "javascript"
+    ],
+    "isDraft": false,
+    "createdAt": "2025-02-15T18:35:09.634Z",
+    "updatedAt": "2025-02-15T18:35:09.634Z",
+    "comments": [],
+    "claps": 27
+  }
+]
